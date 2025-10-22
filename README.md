@@ -1,2 +1,10 @@
 # aws-rekognition
-This project uses AWS Rekognition to identify objects in images and Matplotlib to highlight them visually. It automatically detects what’s in a photo and draws boxes around the recognized objects, making it easy to see and understand the results at a glance.
+This project uses AWS Rekognition to identify objects of a specified target class from a video.
+
+Using OpenCV, bounding boxes will be applied to the objects identified to be part of the target 
+class in the video.
+
+# How to run
+```
+python3 main.py
+```
